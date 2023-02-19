@@ -63,13 +63,7 @@
 			<artifactId>org.eclipse.paho.client.mqttv3</artifactId>
 			<version>1.1.0</version>
 		</dependency> 
-		
-		<dependency>
-			<groupId>com.google.protobuf</groupId>
-			<artifactId>protobuf-java</artifactId>
-			<version>2.6.1</version>
-		</dependency>
-		
+
 		<dependency>
 			<groupId>org.eclipse.kura</groupId>
 			<artifactId>org.eclipse.kura.core.cloud</artifactId>
@@ -87,6 +81,12 @@
 			<artifactId>org.eclipse.kura.api</artifactId>
 			<version>1.0.9</version>	
 		</dependency> 
+
+		<dependency>
+			<groupId>org.eclipse.tahu</groupId>
+			<artifactId>tahu-core</artifactId>
+			<version>1.0.1</version>
+		</dependency>
 				
 		<dependency>
 			<groupId>io.moquette</groupId>

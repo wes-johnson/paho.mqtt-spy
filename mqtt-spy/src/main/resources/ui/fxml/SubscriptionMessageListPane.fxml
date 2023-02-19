@@ -115,6 +115,7 @@
 		                  <RadioMenuItem mnemonicParsing="false" text="Pretty XML" toggleGroup="$wholeMessageFormat" />
 		                  <SeparatorMenuItem />
 		                  <RadioMenuItem mnemonicParsing="false" text="Eclipse Kura" toggleGroup="$wholeMessageFormat" />
+		                  <RadioMenuItem mnemonicParsing="false" text="Eclipse Sparkplug" toggleGroup="$wholeMessageFormat" />
 		                  <SeparatorMenuItem />
 		                  <Menu fx:id="customFormatterMenu" disable="true" mnemonicParsing="false" text="Custom" />
 		                  <MenuItem mnemonicParsing="false" onAction="#editFormatters" text="Formatters..." />

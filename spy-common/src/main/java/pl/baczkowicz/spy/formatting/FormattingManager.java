@@ -130,6 +130,18 @@ public class FormattingManager
 							null, new ScriptExecutionDetails(kuraScript))));
 			
 			defaultScriptFormatters.add(kura);
+
+			// Eclipse Sparkplug
+			final String sparkplugScript = FileUtils.loadFileByNameBase64Encoded("/formatters/eclipseSparkplug.js");
+
+			final FormatterDetails sparkplug = new FormatterDetails(
+					"Eclipse Sparkplug",
+					FormattingUtils.DEFAULT_PREFIX + FormattingUtils.SCRIPT_PREFIX + "-eclipse-sparkplug",
+					"Decodes the Eclipse Sparkplug Protocol Buffer format and converts it to pretty JSON.",
+					Arrays.asList(new FormatterFunction(null, null, null, null,
+							null, new ScriptExecutionDetails(sparkplugScript))));
+
+			defaultScriptFormatters.add(sparkplug);
 		}
 		catch (IOException e)
 		{
